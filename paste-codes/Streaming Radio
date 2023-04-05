@@ -1,0 +1,168 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C Name=Device_StreamingRadio_V2_C_UAID_040E3C8AA2B64E7401_1286841670 Archetype=/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C'/CRD_StreamingRadio/Device_StreamingRadio_V2.Default__Device_StreamingRadio_V2_C' ParentActor=Barrel_FishingRod_Container_Athena_C_UAID_040E3C8AA2B64E7401_1213440665 ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Default__Device_StreamingRadio_V2_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Default__Device_StreamingRadio_V2_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Default__Device_StreamingRadio_V2_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:ToyOptionsComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype=/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:EnabledComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ActivateOnChannelReceiverMessage" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:ActivateOnChannelReceiverMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="DeactivateOnChannelReceiverMessage" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:DeactivateOnChannelReceiverMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.SphereComponent Name="AttenuationSphere" Archetype=/Script/Engine.SphereComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:AttenuationSphere_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="StreamingRadioBus" Archetype=/Script/Engine.AudioComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:StreamingRadioBus_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="ChangeChannelOnChannel" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:ChangeChannelOnChannel_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="PlayOnChannelReceiverMessage" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:PlayOnChannelReceiverMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="StopOnChannelReceiverMessage" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:StopOnChannelReceiverMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="RadioMesh" Archetype=/Script/Engine.StaticMeshComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:RadioMesh_GEN_VARIABLE'
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MI_CP_Device_MusicDevice_Skin_01_0-8F73FDCBEA7971B8"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MI_CP_Device_MusicDevice_Skin_01_0-8F73FDCBEA7971B8EditorOnlyData"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="EditOnlyIcon" Archetype=/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C:EditOnlyIcon_GEN_VARIABLE'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            CachedMaxDrawDistance=3711.368652
+            OnComponentPhysicsStateChanged=(Device_StreamingRadio_V2_C_UAID_040E3C8AA2B64E7401_1286841670.OnPhysicsStateChanged)
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=2968.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=3711.368652
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=3711.368652
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C#354262563"
+         End Object
+         Begin Object Name="ToyOptionsComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ActivateOnChannelReceiverMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DeactivateOnChannelReceiverMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="AttenuationSphere"
+            CachedMaxDrawDistance=3711.368652
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="StreamingRadioBus"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ChangeChannelOnChannel"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PlayOnChannelReceiverMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="StopOnChannelReceiverMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="RadioMesh"
+            Begin Object Name="MI_CP_Device_MusicDevice_Skin_01_0-8F73FDCBEA7971B8"
+               Begin Object Name="MI_CP_Device_MusicDevice_Skin_01_0-8F73FDCBEA7971B8EditorOnlyData"
+               End Object
+               Parent=/Script/Engine.MaterialInstanceConstant'"/Game/Creative/Devices/MusicDevice/Materials/MI_CP_Device_MusicDevice_Skin_01.MI_CP_Device_MusicDevice_Skin_01"'
+               VectorParameterValues(0)=(ParameterInfo=(Name="Base Color Tint"),ParameterValue=(R=0.015209,G=0.187821,B=0.296138,A=1.000000))
+               EditorOnlyData=/Script/Engine.MaterialInstanceEditorOnlyData'"MI_CP_Device_MusicDevice_Skin_01_0-8F73FDCBEA7971B8EditorOnlyData"'
+               LightingGuid=ABAA876248F0DA4FF645FC92EB7456E3
+            End Object
+            OverrideMaterials(0)=/Script/Engine.MaterialInstanceDynamic'"MI_CP_Device_MusicDevice_Skin_01_0-8F73FDCBEA7971B8"'
+            CachedMaxDrawDistance=3711.368652
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditOnlyIcon"
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/Creative/Devices/MusicDevice/Meshes/CP_Device_MusicDevice_01.CP_Device_MusicDevice_01"'
+            OverrideMaterials(0)=/Script/Engine.MaterialInstanceConstant'"/Game/Creative/Devices/MusicDevice/Materials/MI_CP_Device_MusicDevice_Placed_01.MI_CP_Device_MusicDevice_Placed_01"'
+            CachedMaxDrawDistance=3711.368652
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         EditOnlyIcon="EditOnlyIcon"
+         RadioMesh="RadioMesh"
+         StopOnChannelReceiverMessage="StopOnChannelReceiverMessage"
+         PlayOnChannelReceiverMessage="PlayOnChannelReceiverMessage"
+         ChangeChannelOnChannel="ChangeChannelOnChannel"
+         StreamingRadioBus="StreamingRadioBus"
+         AttenuationSphere="AttenuationSphere"
+         DeactivateOnChannelReceiverMessage="DeactivateOnChannelReceiverMessage"
+         ActivateOnChannelReceiverMessage="ActivateOnChannelReceiverMessage"
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=3711.368652
+         SavedActorGuid=0000000000000000000000008CCC7E9C
+         ActorTemplateID="/CRD_StreamingRadio/Device_StreamingRadio_V2.Device_StreamingRadio_V2_C#354262563"
+         LabelOverride="Streaming Radio"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Streaming Radio"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
